@@ -1,0 +1,120 @@
+@import url("normalize.css");
+body, html{
+	background: #eee;	
+	font-family: Helvetica, Arial;
+	font-size: 1rem;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
+
+#cabecera, #contenido{
+	display: inline-block;
+	vertical-align: top;
+	width: 10%;
+}
+
+#cabecera, #contenido, #precarga, #respuesta, 
+.tabla td, .tabla th{
+	padding: .5em;
+}
+
+#contenido{
+	background: white;
+	width: 84%;
+}
+
+#insertar{
+	color: #292623;
+	font-size: 1.5em;
+}
+
+#insertar:hover{
+	color: #ec673a;
+}
+
+#precarga, #respuesta{
+	display: none;
+}
+
+.del{
+	color: #f00;
+}
+
+.edit{
+	color: #07f;
+}
+
+.error,  .exito{
+	background: red;
+	color: white;
+	padding: 1em;
+}
+
+.exito{
+	background: green;
+}
+
+.frm, .tabla p{
+	text-align: justify;
+}
+
+.frm, div{
+	margin: 1em auto;
+}
+
+.frm legend{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.imgR{
+	max-width: 7rem;
+}
+
+.tabla {
+	margin: auto;
+	padding: 0;
+	width: 100%;
+}
+
+/*.tabla td, .tabla th{
+	border: solid .1em;
+}
+
+.tabla td{
+	vertical-align: top;
+}*/
+
+.tabla a {
+	color: #eee;
+}
+
+.tabla a:hover {
+	color: #292623;
+}
+
+.tabla th{
+	background: linear-gradient(to bottom, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+	color: #fff;
+}
+
+.tabla td:nth-child(odd){
+	background: radial-gradient(ellipse at center, rgba(216,225,231,.5) 0%,rgba(242,246,248,.5) 50%,rgba(242,246,248,.5) 51%,rgba(216,225,231,.5) 100%);
+}
+
+.tabla td:nth-child(even){
+	background: radial-gradient(ellipse at center, rgba(181,198,208,.5) 0%,rgba(224,239,249,.5) 50%,rgba(224,239,249,.5) 51%,rgba(181,198,208,.5) 100%);
+}
+
+.tabla tr:nth-child(odd){
+	background: linear-gradient(to bottom, rgba(216,225,231,1) 0%,rgba(242,246,248,1) 50%, rgba(242,246,248,1) 51%,rgba(216,225,231,1) 100%);
+	/*rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%*/
+}
+
+.tabla tr:nth-child(even){
+	background: linear-gradient(to bottom, rgba(181,198,208,1) 0%,rgba(224,239,249,1) 50%, rgba(224,239,249,1) 51%,rgba(181,198,208,1) 100%);
+	/*rgba(224,239,249,1) 0%,rgba(181,198,208,1) 50%,rgba(216,225,231,1) 51%,rgba(242,246,248,1) 100%*/
+}
